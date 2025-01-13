@@ -53,6 +53,8 @@
   "version": "1.0.0",
   "private": true,
   "main": "node_modules/expo/AppEntry.ts",
+  "homepage": "https://kapil-anandagiri.github.io/mufasa-new",
+
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
