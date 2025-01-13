@@ -9,7 +9,6 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "jsEngine": "hermes",
-    "entrypoint": "./src/App.tsx",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
