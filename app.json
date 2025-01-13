@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "mufasa-new",
+    "slug": "mufasa-new",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "entrypoint": "./src/App.tsx",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kapil653.mufasanew"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "51ebcac2-c4e2-42ac-b9ef-42f98f501ff2"
+      }
+    }
+  }
+}
